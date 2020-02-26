@@ -1,0 +1,24 @@
+.list-unstyled {
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+.list-unstyled li {
+  display: flex;
+  padding: 10px 15px;
+  justify-content: space-around;
+  text-align: left;
+}
+.list-unstyled li:first-of-type {
+  background-color: blueviolet;
+  color: #fff;
+}
+.list-unstyled li div {
+  width: calc(33.33333% - 20px);
+}
+.list-unstyled li div:first-of-type {
+  width: 60px;
+}
+.list-unstyled li div:last-of-type {
+  text-align: right;
+}
